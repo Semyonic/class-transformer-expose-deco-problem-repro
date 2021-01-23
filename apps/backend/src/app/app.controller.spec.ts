@@ -14,11 +14,9 @@ describe('AppController', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to backend!"', () => {
+    it('should return id without "_" prefix', () => {
       const appController = app.get<AppController>(AppController);
-      expect(appController.getData()).toEqual({
-        message: 'Welcome to backend!',
-      });
+      expect(appController.getData()).toHaveProperty('id');
     });
   });
 });

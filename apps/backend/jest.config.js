@@ -1,4 +1,5 @@
 module.exports = {
+  testEnvironment: 'node',
   displayName: 'backend',
   preset: '../../jest.preset.js',
   globals: {

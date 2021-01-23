@@ -14,8 +14,9 @@ describe('AppService', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to backend!"', () => {
-      expect(service.getData()).toEqual({ message: 'Welcome to backend!' });
+    it('should have property without "_" prefix', () => {
+      const result = service.getData();
+      expect(result).toHaveProperty('id');
     });
   });
 });
