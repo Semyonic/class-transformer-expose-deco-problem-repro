@@ -2,7 +2,7 @@
 
 # Problem
 
-[@Expose] decorator from [class-transformer](https://github.com/typestack/class-transformer) package, works as it expected in **development** but not in **test** environment.
+[@Expose]() decorator from [class-transformer](https://github.com/typestack/class-transformer) package, works as it expected in **development** but not in **test** environment.
 
 # Expectation
 
