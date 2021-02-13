@@ -1,8 +1,8 @@
-# Class Transformer plainToClass Error Reproduction
+# Class Transformer @Expose Decorator Error Reproduction
 
 # Problem
 
-[plainToClass](https://github.com/typestack/class-transformer#plaintoclass) function from [class-transformer](https://github.com/typestack/class-transformer) package, works as it expected in **development** but not in **test** environment.
+[@Expose] decorator from [class-transformer](https://github.com/typestack/class-transformer) package, works as it expected in **development** but not in **test** environment.
 
 # Expectation
 
